@@ -1,0 +1,37 @@
+svg {
+    font: 10px sans-serif;
+    shape-rendering: crispEdges;
+}
+
+.major .tick {
+    stroke: white;
+}
+
+.minor .tick {
+    stroke: rgb(242, 242, 242);
+}
+
+.axis .tick text {
+    fill: rgb(127, 127, 127);
+}
+
+.axis .tick line {
+    stroke: rgb(127, 127, 127);
+}
+
+.minor line {
+    stroke-width: 1;
+    stroke-opacity: 0.5;
+}
+
+.major line {
+    stroke-width: 2;
+}
+
+.axis line {
+    stroke: #000;
+}
+
+.axis path, .grid path {
+    display: none;
+}
